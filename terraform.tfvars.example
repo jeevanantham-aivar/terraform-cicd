@@ -1,0 +1,14 @@
+# Network Configuration
+# Replace these with your actual VPC, subnet, and security group IDs
+subnet_ids = ["subnet-xxxxxxxxx", "subnet-yyyyyyyyy"]
+security_group_id = "sg-xxxxxxxxx"
+vpc_id = "vpc-xxxxxxxxx"
+
+# Optional: Override default values for ECS module
+# enable_alb = true
+# container_port = 80
+# health_check_path = "/"
+# health_check_healthy_threshold = 2
+# health_check_unhealthy_threshold = 3
+# health_check_timeout = 5
+# health_check_interval = 30 
